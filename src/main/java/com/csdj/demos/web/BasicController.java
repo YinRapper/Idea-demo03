@@ -32,7 +32,7 @@ public class BasicController {
     @RequestMapping("/hello")
     @ResponseBody
     public String hello(@RequestParam(name = "name", defaultValue = "unknown user") String name) {
-        return "Hello world hot-fix  hot-fix提交冲突 Hello world master冲突" + name;
+        return "Hello world hot-fix  hot-fix提交冲突 Hello world master冲突   sss" + name;
     }
 
     // http://127.0.0.1:8080/user
